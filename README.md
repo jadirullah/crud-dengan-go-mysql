@@ -6,7 +6,7 @@ Create , Read, Edit, Delete data Mysql dengan bahasa Go
 
 ##Instalasi
 
-- Buat sebuah tabel di database mysql dengan nama tabel **users**
+- Buat database ber-nama **go_db** dan sebuah tabel di database mysql dengan nama tabel **users**
 
 ```
 CREATE TABLE `users` (
@@ -23,7 +23,7 @@ CREATE TABLE `users` (
 
  ```git clone https://github.com/jadirullah/crud-dengan-go-mysql.git```
 
-- terakhir jalankan perintah 
+- terakhir, masuk ke dalam folder project go jalankan perintah 
 
  ```go run main.go ```
 
